@@ -1,0 +1,14 @@
+/* estilização geral */
+.container{
+    background-color: #ffffff;
+    height: 95%;
+}
+/* estilização do h2 */
+h2{
+    color: antiquewhite;
+    color: #fdd0ff;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 150px;
+    padding-top: 4vh;
+    
+}

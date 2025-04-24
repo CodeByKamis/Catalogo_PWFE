@@ -1,0 +1,40 @@
+/* estilização da barra de navegação */
+
+
+/* estilização da nav */
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #efdeff;
+    background: linear-gradient(90deg, rgba(239, 222, 255, 1) 0%, rgba(255, 214, 245, 1) 50%, rgba(239, 222, 255, 1) 100%);
+    height: 50px;
+  
+}
+/* estilização da abertura de lista */
+ul{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    display: inline-flex;
+}
+
+
+/* estilização dos tópicos da lista */
+li{
+    margin-left: 30px;
+    color: #2c003d;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+    gap: 5px;
+    display: flex;
+}
+/* estilização dos icones */
+span{
+    margin-left: 1vh;
+    color: #2c003d;
+}

@@ -1,0 +1,51 @@
+/* estilizando os cards dos filmes que aparecem na home */
+
+/* estilização geral */
+.conteiner{
+    position: relative;
+    width: 280px;
+    margin: 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: transform 0.3 ease;
+    color: #560068;
+    background-color: #EFDEFF;
+    gap: 20px;
+    
+}
+/* estiliza as fileiras dos filmes */
+figure{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+/* estilizando apenas os P */
+.conteiner p{
+    font-size: 13px;
+    margin-top: 5px;
+    margin-inline-end: 30px;
+    font-family: "Inter", sans-serif; 
+    margin-left: 30px;
+
+}
+/* estilizando imagem */
+.conteiner img {
+    width: 200px;
+    height: 300px;
+    margin-left: 40px;
+}
+
+/* estilizando h3 */
+.conteiner h3{
+    font-family: "Montserrat", sans-serif;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+
+}

@@ -1,0 +1,17 @@
+/* estilização do titulo do nome da página que fica no cabeçalho */
+
+/* estilizando cor e centralização */
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #efdeff;
+    background: linear-gradient(90deg, rgba(239, 222, 255, 1) 0%, rgba(255, 214, 245, 1) 50%, rgba(239, 222, 255, 1) 100%);
+    
+}
+/* estilizando cor, tamanho e fonte do texto */
+h1{
+    font-family: "Montserrat", sans-serif; 
+    font-size: 60px;
+    color:#50016e;
+}

@@ -1,0 +1,32 @@
+.container{
+    background-color: #ffffff;
+    height: 95%;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    gap: 14px;
+    height: 70vh;
+}
+
+
+.titulo{
+    color: #50016e;
+    font-size: 60px;
+}
+
+h2{
+    color: antiquewhite;
+    color: #2a004d;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 150px;
+    padding-top: 4vh;
+    
+}

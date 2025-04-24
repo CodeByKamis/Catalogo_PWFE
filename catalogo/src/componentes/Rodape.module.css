@@ -1,0 +1,15 @@
+/* estilização geral do footer e do texto */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #efdeff;
+    background: linear-gradient(90deg, rgba(239, 222, 255, 1) 0%, rgba(255, 214, 245, 1) 50%, rgba(239, 222, 255, 1) 100%);
+    font-family: "Montserrat", sans-serif;
+    height: 35px;
+    font-weight: bolder;
+}
+
+
+
+

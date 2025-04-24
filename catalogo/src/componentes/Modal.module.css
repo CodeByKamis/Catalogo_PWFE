@@ -1,0 +1,85 @@
+/* estilização geral */
+.modalback {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+/* estilização do modal */
+.modalConteiner {
+    background-color: #efdeff;
+    padding: 20px;
+    border-radius: 25px;
+    width: 50%;
+    max-width: 90%;
+    max-height: 95%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: relative;
+}
+/* estilização da div onde as informações do modal estão */
+.ModalHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px; 
+    width: 100%; 
+    margin-bottom: 80px;
+
+}
+/* estilização do h2 */
+.ModalHeader h2 {
+    color: #50016e;
+    text-align: center;
+    font-size: 25px;
+    flex-grow: 1;
+    margin: 0;
+}
+/* estilização das informações da imagem do filme */
+.imgDetalhes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    margin-top:20px ;
+}
+/* estilização da imagem do filme */
+.imgModal {
+    width: 40%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 2px;
+}
+
+/* estilização da abertura de lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+/* estilização do botão */
+button {
+    background-color: #50016e;
+    border-radius: 20px;
+    color: #efdeff;
+    font-size: 14px;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    align-self: flex-start; 
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/* trazendo efeito ao botâo quando passar o mouse por cima */
+button:hover {
+    background-color: rgb(139, 55, 114);
+}
